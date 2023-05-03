@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="https://prjpwa-unilasalle.glitch.me/favicon.ico" />
+    <link rel="stylesheet" href="/css/cliente.css" />
+    <link rel="manifest" href="/manifest.json" />
+    <title>Cadastro de Produto - Loja LaSallista</title>
+
+  </head>
+  <body style="background-color: #8FB9AA">
+    <div class="parent">
+      <header>
+        <div class="div1"><h1>Cadastro de Produtos</h1></div>
+      </header>
+      <main>
+        <div class="div2">
+          <div style="text-align: center;"><label>Nome</label><br/><input type="text" id="tfCpf" /></div> 
+        <div style="text-align: center;"><label>Preço</label><br/><input type="text" id="tfNome" /></div> 
+        <div style="text-align: center;"><label>Categoria</label><br/><input type="text" id="tfEmail"/></div> 
+        <div style="text-align: center;"><label>Descrição</label><br/><textarea cols="50" rows="8">Descrição</textarea></div>
+          <nav>
+            <div id="divNavegar">
+              <button id="btPrimeiro">
+                Primeiro
+              </button>
+              <button id="btAnterior">
+                Anterior
+              </button>
+              <button id="btProximo">
+                Próximo
+              </button>
+              <button id="btUltimo">
+                Último
+              </button>
+            </div>
+            <div id="divComandos">
+              <button id="btIncluir">
+                Incluir
+              </button>
+              <button id="btSair">
+                Sair
+              </button>
+            </div>
+            <div id="divAviso">
+            </div>
+            <div id="divDialogo" hidden>
+              <button id="btOk">
+                Ok
+              </button>
+              <button id="btCancelar">
+                Cancelar
+              </button>
+            </div>
+          </nav>
+      </main>
+      
+        </div>
+    </div>
+  </body>
+    <script type="module" src="/CtrlSessao.js"></script>
+</html>
